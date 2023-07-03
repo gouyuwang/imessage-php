@@ -1,3 +1,3 @@
 <?php
 
-$app->post('/imessage/start', '\Gouyuwang\IMessage\Controllers\IndexController@start');
+$app->post('/imessage/master', '\Gouyuwang\IMessage\Controllers\IndexController@start');
