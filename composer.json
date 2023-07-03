@@ -1,0 +1,32 @@
+{
+    "name": "gouyuwang/imessage-php",
+    "description": "IMessage library",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "6.*|7.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gouyuwang",
+            "email": "529156563@QQ.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gouyuwang\\IMessage\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gouyuwang\\IMessage\\ServiceProvider"
+            ]
+        }
+    }
+}
